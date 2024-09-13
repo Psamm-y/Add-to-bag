@@ -1,0 +1,106 @@
+body {
+  width: 1000px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 200px;
+  right: 100px;
+  top: 80px;
+  padding: 20px;
+}
+main {
+  font-family: "Georgia";
+  display: flex;
+  flex: 1;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+nav img {
+  height: 70px;
+  width: 60px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(1, 146, 249, 0);
+}
+nav img:hover {
+  border: 2px solid rgba(1, 146, 249, 1);
+}
+.info {
+  margin-left: 40px;
+  padding: 15px 0px;
+}
+.brand-name {
+  color: rgb(1, 146, 249);
+  font-size: 12px;
+  font-weight: 600;
+}
+.shirt-name {
+  font-size: 40px;
+  width: 400px;
+  margin: 8px 0px;
+  font-weight: 530;
+}
+.description {
+  margin-top: 15px;
+  color: grey;
+}
+.shirt {
+  height: 500px;
+  object-fit: cover;
+  width: 400px;
+  border-radius: 5px;
+}
+.price-discount {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.discount {
+  background-color: rgb(137, 195, 237);
+  font-size: 12px;
+  color: rgb(1, 146, 249);
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.old-price {
+  color: grey;
+  margin-bottom: 30px;
+}
+.sizes {
+  display: flex;
+  margin-bottom: 60px;
+}
+.size {
+  padding: 12px 15px;
+  background-color: white;
+  border: none;
+  font-weight: 520;
+}
+.size:hover {
+  color: white;
+  background-color: black;
+}
+.select {
+  font-size: 12px;
+  font-weight: 700;
+}
+.Add {
+  background-color: rgb(1, 146, 249);
+  border: none;
+  color: white;
+  padding: 15px 180px;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+.Add:hover {
+  background-color: rgba(1, 146, 249, 0.8);
+}
